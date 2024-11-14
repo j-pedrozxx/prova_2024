@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkslateblue;
+    font-family: "Source Code Pro", monospace;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffe386;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: "Source Code Pro", monospace;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Source Code Pro", monospace;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-family: "Source Code Pro", monospace;
+}
+
+article {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    flex: 1;
+    text-align: center;
+    background-color: #ddd;
+    font-family: "Source Code Pro", monospace;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: "Source Code Pro", monospace;
+}
+
+ul li:before {
+    content: "✔️";
+    margin-right: 8px;
+    font-family: "Source Code Pro", monospace;
+}
